@@ -1,0 +1,106 @@
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.page{
+  background-image:url('../images/gamerbase.png');
+  background-repeat: no-repeat;
+}
+
+.news-container{
+	margin-top:680px;
+	z-index: 2;
+	position:relative;
+}
+
+.news-post {
+	background-color:white;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.image-container img {
+	width:800px;
+}
+
+.image-container {
+	float:left;
+}
+
+.text-container {
+	float:left;
+	padding:20px;
+	background:#EFEFEF;
+	width:400px;
+	height:450px;
+	white-space:nowrap;
+}
+
+h2 {
+	overflow:hidden;
+	text-overflow:ellipsis;
+	font-weight:600;
+	font-size: 20px;
+}
+
+#streams {
+	width:100%;
+	margin-top:-100px;
+	z-index: 1;
+	position:absolute;
+}
+
+#toplists {
+	position:relative;
+}
+
+#streams-text, #streams-grid{
+	width:50%;
+	float:left;
+}
+
+#streams-grid {
+	padding-top:100px;
+	background-color: #101010;
+}
+
+#streams-text h1{
+	font-size: 26px;
+    font-weight: bold;
+	color: $brand-primary;
+	text-transform: uppercase;
+	font-family: "Oswald" , sans-serif;
+}
+
+#streams-text h2{
+	font-size: 62px;
+    font-weight: bold;
+	color: white;
+	text-transform: uppercase;
+	font-family: "Oswald" , sans-serif;
+}
+
+#streams-text{
+	background-color: #101010;
+	height:940px;
+	padding-top:150px;
+}
+
+
+.no-gutter {
+    padding-right:0;
+    padding-left:0;
+}
+
+.center {
+	margin: 0 auto;
+	text-align:center;
+}
+
+.small-article{
+	height: 450px;
+	width:400px;
+	overflow:hidden;
+	background-color: $brand-primary;
+}
